@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "e3876889-0964-401b-825c-e643aa482814",
+		"name": "Wolf-Shop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2761483"
+	},
+	"item": [
+		{
+			"name": "Upload Item Image",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "test@example.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/items/1/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"items",
+						"1",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
